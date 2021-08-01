@@ -57,9 +57,20 @@ body {
 
 .btn-launch {
 border: solid 2px;
-border-color: var(--subtle-color)
+border-color: var(--subtle-color);
+color: var(--subtle-color);
 }
+
+
 
 .project-description {
     padding-top: 30px;
+}
+
+.project-description h2 {
+    font-family: var(--heading-font-family);
+}
+
+.project-description p {
+    color: var(--subtle-color);
 }
