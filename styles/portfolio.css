@@ -44,8 +44,22 @@ body {
 
 .work-description {
     text-align: center;
+    font-family: var(--secondary-heading-font);
+    font-weight: 600;
+    font-size: 25px;
+    font-style: italic;
 }
 
 .img-fluid {
     border-radius: 4px;
+  
+}
+
+.btn-launch {
+border: solid 2px;
+border-color: var(--subtle-color)
+}
+
+.project-description {
+    padding-top: 30px;
 }
