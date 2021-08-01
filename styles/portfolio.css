@@ -73,7 +73,9 @@ color: var(--subtle-color);
 
 
 .project-description {
-    padding-top: 30px;
+    
+   
+    padding: 30px;
 }
 
 .project-description h2 {
@@ -86,4 +88,8 @@ color: var(--subtle-color);
 
 .navigation-buttons {
     text-align: center;
+}
+
+.back-home {
+ margin-bottom: 20px;   
 }
