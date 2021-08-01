@@ -40,5 +40,12 @@ body {
 .btn-branding {
     background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
     color: var(--subtle-color);
+}
 
+.work-description {
+    text-align: center;
+}
+
+.img-fluid {
+    border-radius: 4px;
 }
