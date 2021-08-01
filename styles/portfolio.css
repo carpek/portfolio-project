@@ -84,3 +84,6 @@ color: var(--subtle-color);
     color: var(--subtle-color);
 }
 
+.navigation-buttons {
+    text-align: center;
+}
