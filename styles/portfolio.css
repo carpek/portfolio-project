@@ -3,6 +3,7 @@
 --secondary-heading-font: 'Raleway', sans-serif;
 --default-font-family: 'Raleway', sans-serif;
 --subtle-color: #656565;
+--highlight-color: #EEE8AA; 
 
 }
 
@@ -48,7 +49,12 @@ background-image: url("https://www.transparenttextures.com/patterns/skulls.png")
     background-color: whitesmoke;
     color: var(--subtle-color);
     border: solid 1px var(--subtle-color);
-    
+    transition: all 100ms ease-in-out;
+}
+
+.btn-branding:hover {
+    border-color: var(--highlight-color);
+    color: var(--highlight-color); 
 }
 
 .work-description {
@@ -73,8 +79,6 @@ color: var(--subtle-color);
 
 
 .project-description {
-    
-   
     padding: 30px;
 }
 
@@ -92,4 +96,35 @@ color: var(--subtle-color);
 
 .back-home {
  margin-bottom: 20px;   
+}
+
+nav i {
+    display: inline;
+    padding: 15px;
+    line-height: 42px;
+    color: var(--subtle-color);
+}
+
+
+nav li {
+    display: inline;
+    padding: 5px ;
+    list-style: none;
+    line-height: 42px;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+
+}
+
+nav a, .navigation-buttons a {
+    text-decoration: none;
+    color: var(--subtle-color);
+    transition: all 100ms ease-in-out;
+}
+
+nav a:hover {
+    color: var(--highlight-color);
 }
