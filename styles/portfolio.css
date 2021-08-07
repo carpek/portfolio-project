@@ -128,3 +128,23 @@ nav a, .navigation-buttons a {
 nav a:hover {
     color: var(--highlight-color);
 }
+
+
+
+.footer {
+border: solid 1 px whitesmoke;
+border-radius: 4px;
+text-decoration: none;
+background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
+}
+
+ .icon-style {
+padding: 10px 10px;
+border-radius: 100%;
+background-color: whitesmoke;
+text-decoration: none;
+color: var(--subtle-color);
+transition: all 100ms ease-in-out;
+
+}
+
