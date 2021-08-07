@@ -2,33 +2,32 @@
 --heading-font-family: 'Parisienne', cursive;
 --secondary-heading-font: 'Raleway', sans-serif;
 --default-font-family: 'Raleway', sans-serif;
---subtle-color: #656565;
+--subtle-color: #878e9f;
 --highlight-color: #EEE8AA; 
 
 }
 
 body {
     font-family: var(--default-font-family);
-    background-color: whitesmoke;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    
 }
 
 .hero {
-   
-    background-color: #ffffff;
-background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-   
-      text-align: center;
-    padding-top: 30px;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 30px;
     max-width: 98%;
     display: block;
     margin: 0 auto;
-
 }
 
 .hero h1 {
     font-family: var(--heading-font-family);
     font-size: 60px;
+    
 }
 
 .hero h2 {
@@ -53,8 +52,8 @@ background-image: url("https://www.transparenttextures.com/patterns/skulls.png")
 }
 
 .btn-branding:hover {
-    border-color: var(--highlight-color);
     color: var(--highlight-color); 
+    background-color: var(--subtle-color); 
 }
 
 .work-description {
@@ -66,8 +65,7 @@ background-image: url("https://www.transparenttextures.com/patterns/skulls.png")
 }
 
 .img-fluid {
-    border-radius: 4px;
-  
+    border-radius: 4px; 
 }
 
 .btn-launch {
@@ -75,8 +73,6 @@ border: solid 2px;
 border-color: var(--subtle-color);
 color: var(--subtle-color);
 }
-
-
 
 .project-description {
     padding: 30px;
@@ -94,15 +90,26 @@ color: var(--subtle-color);
     text-align: center;
 }
 
+.navigation-buttons a:hover {
+    color: var(--highlight-color); 
+    background-color: var(--subtle-color);    
+}
+
 .back-home {
  margin-bottom: 20px;   
 }
 
+nav {
+    background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
+    max-width: 98%;
+    text-decoration: none;
+}
+
 nav i {
     display: inline;
-    padding: 15px;
+    padding: 12px;
     line-height: 42px;
-    color: var(--subtle-color);
+
 }
 
 
@@ -119,32 +126,36 @@ margin: 0;
 
 }
 
-nav a, .navigation-buttons a {
+nav a, .icon-style a, .navigation-buttons a {
     text-decoration: none;
+    padding: 5px;
     color: var(--subtle-color);
     transition: all 100ms ease-in-out;
 }
 
 nav a:hover {
     color: var(--highlight-color);
+    background-color: var(--subtle-color); 
+    border-radius: 10px;
 }
 
-
+.icon-style a:hover {
+    color: var(--highlight-color); 
+    background-color: var(--subtle-color); 
+}
 
 .footer {
-border: solid 1 px whitesmoke;
+
 border-radius: 4px;
 text-decoration: none;
 background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
 }
 
- .icon-style {
-padding: 10px 10px;
-border-radius: 100%;
-background-color: whitesmoke;
-text-decoration: none;
-color: var(--subtle-color);
-transition: all 100ms ease-in-out;
-
+.icon-style a {
+    padding: 10px;
+    margin: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px ;
 }
+
 
