@@ -9,19 +9,25 @@
 
 body {
     font-family: var(--default-font-family);
-    background-color: #ffffff;
+    background-color: #eef1f5;
     background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     
 }
 
+.shadow {
+    box-shadow: 19px 1px 7px -7px rgba(0,0,0,0.11);
+}
+
 .hero {
-    background-color: whitesmoke;
+    background-image: linear-gradient(to top, #e8e7e3 0%, white 100%);
     text-align: center;
+    
     padding: 30px;
-    max-width: 98%;
+    max-width: 90%;
     display: block;
     margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 2px 17px 7px -7px rgba(0,0,0,0.11);
 }
 
 .hero h1 {
@@ -100,7 +106,6 @@ color: var(--subtle-color);
 }
 
 nav {
-    background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
     max-width: 98%;
     text-decoration: none;
 }
@@ -145,10 +150,14 @@ nav a:hover {
 }
 
 .footer {
-
+display: block;
+margin: 0 auto;
+max-width: 98%;
+padding: 20px;
 border-radius: 4px;
 text-decoration: none;
-background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
+
+
 }
 
 .icon-style a {
@@ -157,5 +166,6 @@ background-image: url("https://www.transparenttextures.com/patterns/skulls.png")
     background-color: whitesmoke;
     border-radius: 10px ;
 }
+
 
 
