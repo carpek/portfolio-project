@@ -19,7 +19,9 @@ body {
 }
 
 .hero {
-    background-image: linear-gradient(to top, #e8e7e3 0%, white 100%);
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/notebook-dark.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     text-align: center;
     
     padding: 30px;
@@ -33,7 +35,7 @@ body {
 .hero h1 {
     font-family: var(--heading-font-family);
     font-size: 60px;
-    
+    color: #2E5C73;
 }
 
 .hero h2 {
@@ -43,7 +45,7 @@ body {
     color: var(--subtle-color);
 }
 
-.hero p {
+.hero p, .about p {
     font-family: var(--default-font-family);
     font-weight: 400;
     font-size: 30px;
@@ -72,6 +74,15 @@ body {
 
 .img-fluid {
     border-radius: 4px; 
+    max-width: 360px;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 16px 5px rgba(0,0,0,0.2);
+}
+
+.logos {
+    display: block;
+    margin: 0 auto;
+    max-width: 70px;
+    padding: 5px;
 }
 
 .btn-launch {
@@ -156,6 +167,7 @@ max-width: 98%;
 padding: 20px;
 border-radius: 4px;
 text-decoration: none;
+color: #2E5C73;
 
 
 }
@@ -167,5 +179,46 @@ text-decoration: none;
     border-radius: 10px ;
 }
 
+.quote p {
+    font-size: 11px;
+    color: var(--subtle-color); 
+}
+
+.quote a {
+    text-decoration: none;
+    padding: 2px;
+    color: var(--subtle-color);
+    transition: all 100ms ease-in-out;
+
+}
+
+.quote a:hover  {
+    color: var(--highlight-color); 
+    background-color: var(--subtle-color); 
+    border-radius: 4px;
+}
+
+.button a, .project-description a {
+    text-decoration: none;
+    padding: 2px;
+    color: var(--subtle-color);
+    transition: all 100ms ease-in-out;
+}
+
+.button a:hover  {
+    color: var(--highlight-color); 
+    background-color: var(--subtle-color); 
+    border-radius: 4px;
+}
+
+.about h2 {
+    font-size: 25px;
+}
+
+.project-description a:hover {
+    color: var(--highlight-color); 
+    background-color: var(--subtle-color); 
+    border-radius: 4px;
+} 
 
 
