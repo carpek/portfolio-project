@@ -198,7 +198,7 @@ color: #2E5C73;
     border-radius: 4px;
 }
 
-.button a, .project-description a {
+.button a, .project-description a, .description a {
     text-decoration: none;
     padding: 2px;
     color: var(--subtle-color);
@@ -225,4 +225,8 @@ font-size: 20px;
     border-radius: 4px;
 } 
 
-
+.description a:hover {
+    color: var(--highlight-color); 
+    background-color: var(--subtle-color); 
+    border-radius: 4px;  
+}
