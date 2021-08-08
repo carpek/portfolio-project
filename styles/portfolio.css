@@ -215,6 +215,10 @@ color: #2E5C73;
     font-size: 25px;
 }
 
+.description p {
+font-size: 20px;
+}
+
 .project-description a:hover {
     color: var(--highlight-color); 
     background-color: var(--subtle-color); 
